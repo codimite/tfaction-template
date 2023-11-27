@@ -27,9 +27,9 @@ target_groups:
   target: gcp/dev/
   template_dir: templates/gcp
 - working_directory: gcp/networking/
-  target: gcp/networking/
+  target: gcp/dev/
   template_dir: templates/networking
-  
+
   # terraform_plan_config:
   #   gcp_service_account: terraform-plan@example.iam.gserviceaccount.com
   #   gcp_workload_identity_provider: projects/000000000000/locations/global/workloadIdentityPools/github/providers/tfaction
