@@ -1,10 +1,9 @@
 terraform {
   cloud {
-    organization = "<ORGANIZATION_NAME>"
+    organization = "codimite"
 
     workspaces {
-      name = "<WORKSPACE_NAME>"
-      project = "<PROJECT_NAME>"
+      name = "test-network-tfactions"
     }
   }
 }
